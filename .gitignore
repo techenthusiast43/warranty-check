@@ -1,0 +1,22 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Node modules and build output
+node_modules/
+dist/
+cache/
+artifacts/
+*.tsbuildinfo
+
+# Hardhat
+typechain/
+typechain-types/
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
